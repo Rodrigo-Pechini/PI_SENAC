@@ -1,81 +1,70 @@
+# README - E-Commerce Acessível Farmácia Amparo Farma
 
 ## 📌 Visão Geral
-O **Site da Farmácia Saúde Total** é uma plataforma e-commerce desenvolvida para facilitar a compra de medicamentos e produtos de saúde de forma prática e segura. Com design responsivo, o site se adapta a qualquer dispositivo (celulares, tablets e computadores).
+O **E-Commerce Acessível Farmácia Amparo Farma** é uma plataforma online desenvolvida com foco em acessibilidade digital para idosos e pessoas com deficiência. O projeto implementa as melhores práticas de usabilidade e diretrizes WCAG 2.1 para garantir uma experiência de compra inclusiva.
 
----
+## 👥 Equipe do Projeto
+- Anderson Alves Archanjo Dos Santos
+- Thiago Alves Rocha
+- Vinicius Castro Santana
+- Laryssa Coelho Da Silva
+- Pedro Henrique De Souza Waltz
+- Gloria Martins Da Silva
+- Davi Mendonca Cardoso
+- Rodrigo Pechini Pereira
 
-## ✨ Principais Funcionalidades
+## ✨ Recursos de Acessibilidade Implementados
 
-### 🏠 **Página Inicial**
-- **Banner promocional**: Destaque para ofertas especiais
-- **Sobre nós**: Apresenta a história e valores da farmácia
-- **Produtos em destaque**: Mostra os medicamentos mais procurados
+### 🔍 CONTROLES DE TAMANHO DE FONTE
+- **A+** Aumenta gradualmente o tamanho do texto (4 níveis)
+- **A-** Diminui gradualmente o tamanho do texto
+- **A** Reset para o tamanho padrão
 
-### 💊 **Página de Produtos**
-- Catálogo organizado com 4 categorias principais
-- Filtros por tipo de produto (medicamentos, dermocosméticos, etc.)
-- Informações detalhadas (preço, dosagem, fabricante)
+### 🌗 MODO ALTO CONTRASTE
+- Alternância entre esquema de cores normal e alto contraste
+- Cores otimizadas para melhor legibilidade
+- Inversão de cores para usuários com baixa visão
 
-### 📝 **Página de Cadastro**
-- Formulário simplificado para cadastro de clientes
-- Campos para nome, e-mail e telefone
-- Botão de envio com confirmação visual
-
-### 🛒 **Carrinho de Compras (Visual)**
-- Ícone indicativo de itens selecionados
-- *Funcionalidade completa em desenvolvimento*
-
----
+### 💾 PERSISTÊNCIA DAS CONFIGURAÇÕES
+- As preferências do usuário são salvas no navegador
+- Configurações mantidas durante toda a navegação
 
 ## 🛠 Tecnologias Utilizadas
-- **HTML5**: Estrutura semântica do site
-- **CSS3**: Estilização responsiva com Flexbox/Grid
-- **Design**: Cores temáticas em verde/azul (saúde)
-- **Fonte**: Roboto (Google Fonts) para melhor legibilidade
+- **HTML5 Semântico** com ARIA labels
+- **CSS3** com Media Queries para responsividade
+- **JavaScript** para interatividade
+- **LocalStorage** para salvar preferências
 
----
+## 🚀 Como Utilizar
+1. Os controles de acessibilidade estão localizados no canto inferior direito
+2. Clique nos botões para ajustar:
+   - 🔍 Tamanho da fonte (A+, A-, A)
+   - 🌗 Esquema de cores (☀)
+3. As configurações serão mantidas automaticamente
 
-## 📱 Responsividade
-O site foi projetado para funcionar perfeitamente em:
-- Telas grandes (desktops)
-- Tablets
-- Smartphones (versão mobile otimizada)
-
----
-
-## 🎨 Design e Usabilidade
-- **Cabeçalho fixo**: Com logo e menu acessível em todas as páginas
-- **Cards de produtos**: Layout clean com hover effects
-- **Formulários**: Design intuitivo e campos bem destacados
-- **Rodapé informativo**: Com links úteis e dados de contato
-
----
-
-## 🔜 Próximas Atualizações (Roadmap)
-1. Implementação do carrinho de compras funcional
-2. Área do cliente com histórico de pedidos
-3. Busca inteligente por produtos
-4. Seção de blog com dicas de saúde
-5. Integração com WhatsApp para pedidos
-
----
-
-## 📂 Estrutura de Arquivos
+## 📁 Estrutura de Arquivos
 ```
 amparo-farma/
-├── index.html          # Página inicial
-├── produtos.html       # Catálogo de produtos
-├── cadastro.html       # Formulário de cadastro
+├── index.html
+├── produtos.html
+├── cadastro.html
 ├── css/
-│   └── style.css       # Todos os estilos
-└── img/                # Imagens do site
+│   ├── style.css
+├── js/
+│   └── acessibilidade.js
+└── img/
 ```
 
----
+## 🌟 Próximas Atualizações
+- [ ] Suporte a navegação por teclado
+- [ ] Leitor de tela integrado
+- [ ] Mais opções de paletas de cores
+- [ ] Tutorial interativo de acessibilidade
 
-## ℹ️ Como Utilizar
-1. Clone o repositório ou faça download dos arquivos
-2. Abra o arquivo `index.html` no navegador
-3. Navegue entre as páginas pelo menu superior
+## 📝 Considerações Éticas
+Este projeto foi desenvolvido seguindo os princípios de Design Inclusivo, garantindo que:
+- Todos os usuários tenham igual acesso à informação
+- As funcionalidades sejam operáveis de múltiplas formas
+- O conteúdo seja compreensível e robusto
 
----
+Desenvolvido com ❤️ pelo time SENAC EAD 2025 | Todos os direitos reservados
