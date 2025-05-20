@@ -66,5 +66,6 @@ Este projeto foi desenvolvido seguindo os princípios de Design Inclusivo, garan
 - Todos os usuários tenham igual acesso à informação
 - As funcionalidades sejam operáveis de múltiplas formas
 - O conteúdo seja compreensível e robusto
+- [Link do video](https://youtu.be/XuQJQjTT8Kc)
 
 Desenvolvido com ❤️ pelo time SENAC EAD 2025 | Todos os direitos reservados
